@@ -1,0 +1,19 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/create_extension_uuid.sql
+  - include:
+      file: db/changelog/create_table_coach.sql
+  - include:
+      file: db/changelog/create_table_team.sql
+  - include:
+      file: db/changelog/create_table_footballer.sql
+  - include:
+      file: db/changelog/create_table_tournament.sql
+  - include:
+      file: db/changelog/create_table_match.sql
+  - include:
+      file: db/changelog/create_table_team_tournament.sql
+  - include:
+      file: db/changelog/create_table_match_team.sql
+  - include:
+      file: db/changelog/create_table_tournament_match.sql
