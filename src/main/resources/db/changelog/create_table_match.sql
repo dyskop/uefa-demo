@@ -8,7 +8,8 @@ CREATE TABLE IF NOT EXISTS match
     start_date_time TIMESTAMP NOT NULL,
     stadium         VARCHAR(128) NOT NULL,
     referee         VARCHAR(128) NOT NULL,
-    result          VARCHAR(128)
+    result          VARCHAR(128),
+    referee_id      UUID NOT NULL REFERENCES referee(id)
 );
 
 --rollback DROP TABLE match
