@@ -1,6 +1,7 @@
 package by.skopinau.uefademo.model.entity;
 
 import by.skopinau.uefademo.model.enums.Country;
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;

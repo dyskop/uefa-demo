@@ -19,3 +19,5 @@ databaseChangeLog:
       file: db/changelog/create_table_match_team.sql
   - include:
       file: db/changelog/create_table_tournament_match.sql
+  - include:
+      file: db/changelog/data.sql
