@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS footballer
     id         UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     first_name VARCHAR(128) NOT NULL,
     last_name  VARCHAR(128) NOT NULL,
-    birthdate  TIMESTAMP NOT NULL,
+    birthdate  DATE NOT NULL,
     team_id    UUID UNIQUE REFERENCES team(id),
     position   VARCHAR(128) NOT NULL
 );
