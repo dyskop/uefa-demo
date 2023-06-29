@@ -7,7 +7,9 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum ExceptionMessage {
 
-    ENTITY_NOT_FOUND("Failed to retrieve %s: %s");
+    ENTITY_NOT_FOUND("Failed to retrieve entity: %s"),
+    ENTITY_ALREADY_EXISTS("Entity already exists: %s"),
+    COACH_UNAVAILABLE("The coach already has a team");
 
     private final String message;
 }

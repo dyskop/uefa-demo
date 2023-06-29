@@ -1,8 +1,8 @@
-package by.skopinau.uefademo.model.entity;
+package by.skopinau.uefademo.model.enums;
 
 public enum Position {
 
-    GP,
+    GK,
     LB,
     CB,
     RB,

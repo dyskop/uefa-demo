@@ -1,4 +1,4 @@
-package by.skopinau.uefademo.model.entity;
+package by.skopinau.uefademo.model.enums;
 
 public enum Country {
 
