@@ -9,3 +9,10 @@ spring:
     url: ${DATASOURCE_URL}
     username: ${DATASOURCE_USER}
     password: ${DATASOURCE_PASSWORD}
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
